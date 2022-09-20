@@ -23,4 +23,4 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Deploy
-        run: aws s3 sync ./ s3://everse-snack-handgesture-ifc
+        run: aws s3 sync ./ s3://everse-snack-potree-viewer
