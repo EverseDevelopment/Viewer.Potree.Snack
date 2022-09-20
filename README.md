@@ -1,6 +1,6 @@
 # Viewer.Potree.Snack
 
-Based on Potree project 
+Based on [Potree project](https://github.com/potree/potree)
 
 ## Getting Started
 This is static, so please use the following steps to run:
