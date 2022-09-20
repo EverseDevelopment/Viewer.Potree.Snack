@@ -1,6 +1,6 @@
 # Viewer.Potree.Snack
 
-
+Based on Potree project 
 
 ## Getting Started
 This is static, so please use the following steps to run:
@@ -26,3 +26,4 @@ We are an international mix of AEC professionals, product designers, and softwar
     <img src="https://github.com/EverseDevelopment/DynaForge/blob/main/Assets/e-verse_logo_no%20slogan.jpg" width="732" height="271" align="center">
     </a>
 </p>
+
