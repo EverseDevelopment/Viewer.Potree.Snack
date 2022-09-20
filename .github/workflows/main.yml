@@ -22,12 +22,12 @@ jobs:
           node-version: 12.x
       - name: Install dependencies
         run: npm install
-      - name: Copy
-        run: mkdir public
-        run: cp index.html ./public
-        run: cp build ./public
-        run: cp pointclouds ./public
-        run: cp libs ./public
-        run: cp src ./public
+      - run: |
+          mkdir ./public
+          cp index.html ./public 
+          cp build ./public
+          cp pointclouds ./public
+          cp libs ./public
+          cp src ./public
       - name: Deploy
         run: aws s3 sync ./public/ s3://everse-snack-potree-viewer
